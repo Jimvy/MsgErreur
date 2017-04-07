@@ -1,0 +1,2 @@
+variably_modified.c:4:5: error: variably modified ‘tableau’ at file scope
+ int tableau[taille];
