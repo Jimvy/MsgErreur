@@ -5,3 +5,6 @@ initialier element is not constant :
 voir http://stackoverflow.com/questions/3025050/error-initializer-element-is-not-constant-when-trying-to-initialize-variable-w pour l'erreur : seuls les litéraux sont des constantes, et les variables statiques ou const doivent être déclarées avec des constantes.
 
 
+dereferencing pointer to incomplete type :
+La structure n'est pas connue du compilateur.
+Aussi étrange que cela puisse paraitre, il est autorisé de créer un pointeur vers une structure non connue du compilateur : ça s'appelle un type incomplet.
